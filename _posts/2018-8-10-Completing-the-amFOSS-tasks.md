@@ -37,7 +37,7 @@ I also had some trouble wrapping my head around how to input the numbers in the 
 
 &nbsp;
 You can find the link to all of the programs of task-2 here.
-https://github.com/officialcjunior/amfoss-tasks/tree/master/task-2
+<<https://github.com/officialcjunior/amfoss-tasks/tree/master/task-2>
 
 &nbsp;
 
@@ -48,7 +48,7 @@ The Nokogiri HTML Parser, used to retrieving the results are stored as a depende
 
 &nbsp;
 You can find the link below:
-https://github.com/officialcjunior/amfoss-tasks/tree/master/task-3
+<https://github.com/officialcjunior/amfoss-tasks/tree/master/task-3>
 
 &nbsp;
 
@@ -67,7 +67,7 @@ I've handled the scenario to give out an error message if the profile doesn't ex
 As part of Authorization header of the request, I had to get my PAT key from GitHub and add it.
 
 Find the link below:
-https://github.com/officialcjunior/amfoss-tasks/tree/master/task-5
+<https://github.com/officialcjunior/amfoss-tasks/tree/master/task-5>
 
 &nbsp;
 
@@ -89,17 +89,17 @@ Anaconda and Go was a litte hard to understand at first, as the indentation, the
 
 
 The link to Anaconda can be found below:
-https://github.com/ChimeraCoder/anaconda
+<https://github.com/ChimeraCoder/anaconda>
 
 The link to my CLI App can be found here:
-https://github.com/officialcjunior/amfoss-tasks/tree/master/task-6
+<https://github.com/officialcjunior/amfoss-tasks/tree/master/task-6>
 &nbsp;
 
 Task -7 &nbsp;
 From Rust's documentation website, I followed the example of regex crate usage. I imported that into my code and used it to compare the string entered with the pattern of the email address.
 
 You can find the link below:
-https://github.com/officialcjunior/amfoss-tasks/tree/master/task-7
+<https://github.com/officialcjunior/amfoss-tasks/tree/master/task-7>
 
 &nbsp;
 
@@ -111,10 +111,10 @@ The project page on Github had a lot of clearly explained examples about how to 
 I made the .png file using Arial font and exported it out as a screenshot, after typing it out in the biggest size possible.
 
 You can find the link below:
-https://github.com/officialcjunior/amfoss-tasks/tree/master/task-8
+<https://github.com/officialcjunior/amfoss-tasks/tree/master/task-8>
 
 And here's the link to pytesseraact:
-https://pypi.org/project/pytesseract/
+<https://pypi.org/project/pytesseract/>
 &nbsp;
 
 Task-9 &nbsp;
@@ -125,7 +125,7 @@ As it had everything neatly explained in comments, all I had to do was edit out 
 Each post is saved as a Markdown file so I finished writing out the post without much research.
 
 You can find the link to Jekyll Now below:
-https://github.com/barryclark/jekyll-now
+<https://github.com/barryclark/jekyll-now>
 
 &nbsp;
 
