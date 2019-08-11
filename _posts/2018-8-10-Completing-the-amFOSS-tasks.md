@@ -41,7 +41,7 @@ I also had some trouble wrapping my head around how to input the numbers in the 
 
 &nbsp;
 You can find the link to all of the programs of task-2 here.
-<<https://github.com/officialcjunior/amfoss-tasks/tree/master/task-2>
+<https://github.com/officialcjunior/amfoss-tasks/tree/master/task-2>
 
 &nbsp;
 
