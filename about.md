@@ -8,9 +8,12 @@ permalink: /about/
 
 ### More Information
 
-Hello!
-Welcome to Aswin's blog
+Hey!
+Welcome to Aswin's tech blog.
+This is where I post and keep a log about the tech stuff I do.
+
 
 ### Contact me
 
 [email@domain.com](mailto:email@domain.com)
+[t.me/officialcjunior] 
