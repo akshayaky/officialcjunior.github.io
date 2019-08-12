@@ -19,7 +19,14 @@ What was displayed on the LCD screen for a split of a second, was the first flag
 The address of Amrita Cybersecurity Lab!
 
 &nbsp;
-But still, there was this unclickable button titled 'Enter the details', still hanging above the footer of the page, and I was quite intruiged by it. And the hint, displayed just above the button was, 
+But still, there was this unclickable button titled 'Enter the details', still hanging above the footer of the page, and I was quite intruiged by it. And the hint, displayed just above the button read, 'the source of your inspiration'.
+I knew that it meant something and it took me a long while to crack the fact that it could be talking about the source code of the web page.
+&nbsp;
+
+And there it was, just near the code of button I talked about earlier, a Google form link, asking you to enter your details , written as a comment.
+&nbsp;
+
+And that's how I captured my first flag!
 
 
 
