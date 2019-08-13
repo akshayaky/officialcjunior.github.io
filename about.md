@@ -14,7 +14,7 @@ This is where I post and keep a log about the tech stuff I do.
 
 ### Contact me
 
-[Email][mailto:aswinraman2013@gmail.com]
+[Email](mailto:aswinraman2013@gmail.com)
 &nbsp;
 
 [Telegram](https://t.me/officialcjunior)
