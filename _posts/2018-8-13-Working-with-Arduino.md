@@ -57,7 +57,7 @@ To create a password manager using a keypad and an LCD screen, I had to refer to
 Here, I used the LiquidCrystal library for the LCD screen and Keypad for the keypad to function. Similary from the first challenge, I prompted and user and retrieved the password and compared it with the saved password using an if statement. I've handled the scenario where the character keys are pressed, to give out a simple error message.
 
 Here's the code I've made:
-[Challenge 5]https://github.com/officialcjunior/bi0s-tasks/tree/master/task-1/challenge-5)
+[Challenge 5](https://github.com/officialcjunior/bi0s-tasks/tree/master/task-1/challenge-5)
 &nbsp;
 
 
