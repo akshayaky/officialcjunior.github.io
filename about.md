@@ -23,4 +23,4 @@ This is where I post and keep a log about the tech stuff I do.
 [Mastodon Blog](https://oldbytes.space/@officialcjunior)
 &nbsp;
 
-[Tumblr blog](https://blogdecjunior.tumnlr.com)
+[Tumblr blog](https://blogdecjunior.tumblr.com)
