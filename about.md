@@ -9,10 +9,12 @@ Hey! &nbsp;
 
 Welcome to Aswin's tech blog. &nbsp;
 
+I'm a computer science undergraduate student. &nbsp;
+
 This is where I post and keep a log about the tech stuff I do.
 
 
-### Connect with me
+### Connect
 
 [Email](mailto:aswinraman2013@gmail.com)
 &nbsp;
@@ -20,7 +22,8 @@ This is where I post and keep a log about the tech stuff I do.
 [Telegram](https://t.me/officialcjunior)
 &nbsp;
 
-[Mastodon Blog](https://oldbytes.space/@officialcjunior)
+### Follow me around
+Usually, I chat around on my [Mastodon Blog](https://oldbytes.space/@officialcjunior)
 &nbsp;
 
-[Tumblr blog](https://blogdecjunior.tumblr.com)
+You can also check out my stories and writings at my [Tumblr blog](https://blogdecjunior.tumblr.com)
