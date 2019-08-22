@@ -8,12 +8,13 @@ Lately, I happened  to lay my hands on one of the hottest topic on the tech worl
 &nbsp;
 
 
-When I held the Pi in my palm, the first thing I realized is that, like a real raspberry, it is very small.
-
+When I held the Pi in my palm, the first thing I realized is that, like a real raspberry, it was indeed, very small.
+&nbsp;
 
 
 So, I connected it to my laptop using an Ethernet cable, pulled up my USB Type C connecter for the power supply, and connected the HDMI cable of the monitor and keyboard to the Pi.
 &nbsp;
+
 
 My Ubuntu told me that the my Wired connection is alright, so I ran the command ''hostname-I'' on the Pi, got the IP address. I also turned on the SSH in ''raspi-config'', so that it recieves my SSH request.
 &nbsp;
@@ -24,8 +25,10 @@ So, it all looked fine, I ran the command to establish a connection to the Pi, o
 
 Dang!
 &nbsp;
+
 What did I miss?
 &nbsp;
+
 I tried reconnecting a million times and almost read all the articles related to connecting a Raspberry Pi to Linux on the web when I realized that the problem lies in the network.
 &nbsp;
 
