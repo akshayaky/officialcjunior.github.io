@@ -5,10 +5,6 @@
 A phishing website of the administrator login page is set up. An attacker is then able to harvest the login credentials entered by the victim.
 &nbsp;
 
-##Tested versions
-TP-Link Wireless N Router WR840N Model Number TL-WR840N
-&nbsp;
-
 ##Summary
 The exploit is a four step process.
 
