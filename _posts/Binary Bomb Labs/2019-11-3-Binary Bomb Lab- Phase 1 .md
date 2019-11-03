@@ -24,10 +24,7 @@ We'll be debugging using GDB, GNU Project debugger, which you can install from [
 
 ## Phase 1
 
-&nbsp;
-
 First, let's run the program, which will prompt the user to input the first password.
-
 
 ![1-1](../../images/binarybomblabs/1-1.jpg)
 
