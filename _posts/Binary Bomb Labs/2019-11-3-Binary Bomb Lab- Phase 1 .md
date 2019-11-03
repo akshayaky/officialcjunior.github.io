@@ -1,4 +1,3 @@
-# Binary Bomb Lab- Phase 1
 For the past month or so, I've been working on solving the infamous Binary Bomb Lab challenges. The challenge is made to teach the users understand assembly language.
 &nbsp;
 
