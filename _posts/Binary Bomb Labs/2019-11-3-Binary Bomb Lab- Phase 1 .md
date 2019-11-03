@@ -33,8 +33,7 @@ First, let's run the program, which will prompt the user to input the first pass
 ![1-1](../../images/binarybomblabs/1-1.jpg)
 
 
-**Let's reverse!
-**
+**Let's reverse!**
 
 For that, we load the program up in GDB.
 
@@ -83,4 +82,5 @@ Let's enter that as the password.
 ![1-6](../../images/binarybomblabs/1-6.jpg)
 
 And there you go!
+
 Phase 1 - solved!
