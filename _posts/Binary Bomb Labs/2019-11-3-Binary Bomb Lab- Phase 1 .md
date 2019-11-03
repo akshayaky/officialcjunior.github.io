@@ -3,7 +3,7 @@ For the past month or so, I've been working on solving the infamous Binary Bomb 
 &nbsp;
 
 ## Introduction
-So, the 'Bomb Lab' is provided as an object code file and when run, it promts the user to type in 6 strings, in the six phases. If any of these is incorrect, the bomb "**explodes**" and exits gracefully.
+So, the 'Binary Bomb', made my the nefarious Dr Evil, is provided as an object code file and when run, it promts the user to type in 6 strings, in the six phases. If any of these is incorrect, the bomb "**explodes**" and exits gracefully.
 &nbsp;
 
 One must "**defuse**" the bombs by disassembling and reverse engineering the program to determine what the 6 strings could be.
