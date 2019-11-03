@@ -1,8 +1,8 @@
-#Binary Bomb Lab- Phase 1
-For the past month or so, I've been working on solving the infamous Binary Bomb Lab challenges. The challenge is made to teach and understand assembly language.
+# Binary Bomb Lab- Phase 1
+For the past month or so, I've been working on solving the infamous Binary Bomb Lab challenges. The challenge is made to teach the users understand assembly language.
 &nbsp;
 
-##Introduction
+## Introduction
 So, the 'Bomb Lab' is provided as an object code file and when run, it promts the user to type in 6 strings, in the six phases. If any of these is incorrect, the bomb "**explodes**" and exits gracefully.
 &nbsp;
 
@@ -13,7 +13,7 @@ Solving the Bomb Lab has been fun, exciting and extremely informational.
 
 So, let's jump in!
 
-##Setting up
+## Setting up
 
 You'll have to know the basics of x86 assembly language. For that SecurityTube's [Assembly Primer for hackers](https://www.youtube.com/watch?v=K0g-twyhmQ4&list=PL6brsSrstzga43kcZRn6nbSi_GeXoZQhR)
 is a great place to start.
@@ -23,7 +23,7 @@ You can get the file and read the lab handout and learn a bit about the commands
 
 We'll be debugging using GDB, GNU Project debugger, which you can install from [here](https://www.gnu.org/s/gdb/).
 
-##phase_1
+## Phase 1
 
 &nbsp;
 
@@ -83,3 +83,4 @@ Let's enter that as the password.
 ![1-6](../../images/binarybomblabs/1-6.jpg)
 
 And there you go!
+Phase 1 - solved!
