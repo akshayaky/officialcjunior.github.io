@@ -34,7 +34,7 @@ We can see that, in line `<+19>`, after setting up some memory, function **`<rea
 
 Secondly, on line `<+68>`, we can see a instruction tell you to jump back to line `+46` until `$ebx` is 5, which is a loop. And on line `<+54>`, there's a `cmp` statement which lets us jump over the call to `<explode_bomb>`. 
 
-From this, we can come to a conclusion the numbers are in some form of a pattern and each integer must satisfy a condition to avoid setting the bomb off.
+From this, we can come to a conclusion that, the numbers are in some form of a pattern and each integer must satisfy a condition to avoid setting the bomb off.
 
 _________________
 
