@@ -1,6 +1,6 @@
 For the past month or so, I've been working on solving the infamous Binary Bomb Lab challenges. The challenge is made to teach the users understand assembly language.
 &nbsp;
-
+___________________________________
 ## Introduction
 So, the 'Binary Bomb', made my the nefarious Dr Evil, is provided as an object code file and when run, it promts the user to type in 6 strings, in the six phases. If any of these is incorrect, the bomb "**explodes**" and exits gracefully.
 &nbsp;
@@ -21,6 +21,8 @@ is a great place to start.
 You can get the file and read the lab handout and learn a bit about the commands we are about to use [here](http://csapp.cs.cmu.edu/2e/bomblab.pdf).
 
 We'll be debugging using GDB, GNU Project debugger, which you can install from [here](https://www.gnu.org/s/gdb/).
+
+_________________
 
 ## Phase 1
 
