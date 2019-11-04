@@ -1,8 +1,10 @@
+# Solving Binary Bomb Lab challenges
+
 For the past month or so, I've been working on solving the infamous Binary Bomb Lab challenges. The challenge is made to teach the users understand assembly language.
 &nbsp;
 ___________________________________
 ## Introduction
-So, the 'Binary Bomb', made my the nefarious Dr Evil, is provided as an object code file and when run, it promts the user to type in 6 strings, in the six phases. If any of these is incorrect, the bomb "**explodes**" and exits gracefully.
+So, the 'Binary Bomb', made by the nefarious Dr Evil, is provided as an object code file and when run, it prompts the user to type in 6 strings, in the six phases. If any of these is incorrect, the bomb "**explodes**" and exits gracefully.
 &nbsp;
 
 One must "**defuse**" the bombs by disassembling and reverse engineering the program to determine what the 6 strings could be.
@@ -26,10 +28,7 @@ _________________
 
 ## Phase 1
 
-&nbsp;
-
 First, let's run the program, which will prompt the user to input the first password.
-
 
 ![1-1](../../images/binarybomblabs/1-1.jpg)
 
