@@ -47,7 +47,9 @@ And let's use `until` to move till line `<+54>` to see, to what we're comparing 
 So, the second integer must be 2.
 
 Similary, we can keep going to the next iteration using the command `ni` on and on again till the last integer is compared and form the password. But where's the fun in that?
+
 _________________
+
 While the program is on line <+49>, we have all of our integers' addresses inside `$esi` and we have `$ebx`, which just keeps incrementing by 1, each iteration, till the end. 
 
 That is, each element except the first element should be the previous element times the index of the current element, added by 1.
