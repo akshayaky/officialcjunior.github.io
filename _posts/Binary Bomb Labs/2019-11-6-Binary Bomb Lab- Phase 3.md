@@ -9,7 +9,7 @@ If you were looking for some other phases, click on the link below.
 
 _________________
 
-As usual, we set up a breakpoint at `phase_3` after loading it on GDB.`run` it and `disassemble` it.
+As usual, we set up a breakpoint at `phase_3` after loading it on GDB, then,`run` it and `disassemble` it.
 
 ![3-1](../../images/binarybomblabs/3-1.png)
 
@@ -39,12 +39,9 @@ Even if you haven't, I've got you covered.
 
 So, Dr Evil wants us to enter a character sandwiched between two integers.
 
-Let's update our test input with '`1 a 2`' 
- and `run` it up again.
+Let's update our test input with '`1 a 2`' and `run` it up again.
 
 _________________
-
-
 
 We have already jumped over the first call to `<explode_bomb>` at line `+39` as we've entered some value into the three variables in `scanf`.
 
