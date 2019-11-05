@@ -3,6 +3,15 @@
 For the past month or so, I've been working on solving the infamous Binary Bomb Lab challenges. The challenge is made to teach the users understand assembly language.
 &nbsp;
 ___________________________________
+
+This is post is about solving Phase 1, if you were looking for some other phases, you may click on the link below
+  * [Phase -1](https://officialcjunior.github.io/Binary-Bomb-Lab-Phase-1/)
+  * [Phase -2](https://officialcjunior.github.io/Binary-Bomb-Lab-Phase-2/)
+  * [Phase -3](https://officialcjunior.github.io/Binary-Bomb-Lab-Phase-3/)
+  
+
+
+
 ## Introduction
 So, the 'Binary Bomb', made by the nefarious Dr Evil, is provided as an object code file and when run, it prompts the user to type in 6 strings, in the six phases. If any of these is incorrect, the bomb "**explodes**" and exits gracefully.
 &nbsp;
