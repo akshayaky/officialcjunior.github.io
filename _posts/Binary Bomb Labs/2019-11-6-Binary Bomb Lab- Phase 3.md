@@ -70,4 +70,4 @@ So, our password ends up being  **`0 q 777`**.
 &nbsp;
 And there you go, Phase -2 is done!
 
-And I think we should consider joining a bomb squad.
+I think we should consider joining a bomb squad.
