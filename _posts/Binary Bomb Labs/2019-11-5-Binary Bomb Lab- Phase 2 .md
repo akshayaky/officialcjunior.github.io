@@ -5,6 +5,7 @@ Here, we're going to solve Phase-2 of the Bomb Lab.
 If you were looking for some other phases, click on the link below.
 
   * [Phase -1](https://officialcjunior.github.io/Binary-Bomb-Lab-Phase-1/)
+  * [Phase -3](https://officialcjunior.github.io/Binary-Bomb-Lab-Phase-3/)
 
 _________________
 
