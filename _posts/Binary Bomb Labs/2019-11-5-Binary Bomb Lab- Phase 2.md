@@ -65,6 +65,6 @@ So, our second password is
 
 **`1 2 6 24 120 720`**
 
-And there you go!
+And there you go.
 
-Phase -2, solved.
+Phase -2, solved!
