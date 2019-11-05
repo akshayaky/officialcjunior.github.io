@@ -27,7 +27,7 @@ The first interesting that we see here is at line `<+31>` where `scanf` function
 
 So, let's see what's inside it.
 
-For that we use the `x` command and print whatever inside is as strings, hence the `/s`
+For that we use the `x` command and print whatever inside it, as strings, hence the `/s`
 
 ![3-2](../../images/binarybomblabs/3-2.png)
 
