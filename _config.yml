@@ -51,6 +51,7 @@ baseurl: ""
 #
 # !! You don't need to change any of the configuration flags below !!
 #
+future: true #to let the server build even if the date is in the future
 
 permalink: /:title/
 
