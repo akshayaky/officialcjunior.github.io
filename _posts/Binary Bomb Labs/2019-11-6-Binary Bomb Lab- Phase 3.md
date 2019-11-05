@@ -1,6 +1,6 @@
 Hello!
 
-Here, we're going to solve Phase-2 of the Bomb Lab.
+Here, we're going to solve Phase-3 of the Bomb Lab.
 
 If you were looking for some other phases, click on the link below.
 
@@ -66,7 +66,7 @@ So, our password ends up being  **`0 q 777`**.
 
 &nbsp;
 
-And there you go, Phase -2 is done!
+And there you go, Phase -3 is done!
 
 I think we should consider joining a bomb squad.
 
