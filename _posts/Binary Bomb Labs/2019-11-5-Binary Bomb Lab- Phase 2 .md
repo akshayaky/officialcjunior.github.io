@@ -1,3 +1,6 @@
+# Solving Binary Bomb Lab challenges
+
+
 Hello!  
 
 Here, we're going to solve Phase-2 of the Bomb Lab.
@@ -31,15 +34,15 @@ After loading the file up in GDB, let's set the breakpoint at **`phase_2`** and 
 
 ![2-2](../../images/binarybomblabs/2-2.jpg)
 
-We can see that, in line `<+19>`, after setting up some memmory, function **`<read_six_numbers>`** is called. From this, we can assume that Dr Evil wants us to enter some six integers. 
+We can see that, in line `<+19>`, after setting up some memory, function **`<read_six_numbers>`** is called. From this, we can assume that Dr Evil wants us to enter some six integers. 
 
 Secondly, on line `<+68>`, we can see a instruction tell you to jump back to line `+46` until `$ebx` is 5, which is a loop. And on line `<+54>`, there's a `cmp` statement which lets us jump over the call to `<explode_bomb>`. 
 
-From this, we can come to a conclusion the numbers are in some form of a pattern and each integer must satisfy a condition to avoid setting the bomb off.
+From this, we can come to a conclusion that, the numbers are in some form of a pattern and each integer must satisfy a condition to avoid setting the bomb off.
 
 _________________
 
-After checking whether the first integer is 1 or not at line `<27>`, we are jumping to line `<+38>`, where the heart of `phase_2` is.
+After checking whether the first integer is 1 or not at line `<+27>`, we are jumping to line `<+38>`, where the heart of `phase_2` is.
 
 And let's use `until` to move till line `<+54>` to see, to what we're comparing the second integer with. As we're comparing it with `$eax`, let's see what's inside that register.
 
@@ -48,8 +51,10 @@ And let's use `until` to move till line `<+54>` to see, to what we're comparing 
 So, the second integer must be 2.
 
 Similary, we can keep going to the next iteration using the command `ni` on and on again till the last integer is compared and form the password. But where's the fun in that?
+
 _________________
-While the program is on line <+49>, we have all of our integers' addresses inside `$esi` and we have `$ebx`, which just keeps incrementing by 1, each iteration, till the end. 
+
+While the program is on line `<+49>`, we have all of our integers' addresses inside `$esi` and we have `$ebx`, which just keeps incrementing by 1, each iteration, till the end. 
 
 That is, each element except the first element should be the previous element times the index of the current element, added by 1.
 
