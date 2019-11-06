@@ -1,3 +1,6 @@
+# Solving Binary Bomb Lab challenges
+
+
 Hello!
 
 Here, we're going to solve Phase-3 of the Bomb Lab.
@@ -71,6 +74,4 @@ So, our password ends up being  **`0 q 777`**.
 
 And there you go, Phase -3 is done!
 
-I think we should consider joining a bomb squad.
-
-:)
+I think we should consider joining a bomb squad :D
