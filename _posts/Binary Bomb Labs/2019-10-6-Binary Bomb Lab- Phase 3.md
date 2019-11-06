@@ -1,5 +1,9 @@
 # Solving Binary Bomb Lab challenges
 
+---
+permalink: /Binary-Bomb-Lab/
+---
+
 Hello!
 
 Here, we're going to solve Phase-3 of the Bomb Lab.
