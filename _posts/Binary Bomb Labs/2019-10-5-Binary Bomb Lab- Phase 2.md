@@ -67,4 +67,4 @@ So, our second password is
 
 And there you go.
 
-Phase -2, solved!
+Phase -2 is solved!
