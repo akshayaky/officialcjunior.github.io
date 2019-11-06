@@ -1,8 +1,5 @@
 # Solving Binary Bomb Lab challenges
 
----
-permalink: /Binary Bomb Labs/
----
 
 Hello!
 
