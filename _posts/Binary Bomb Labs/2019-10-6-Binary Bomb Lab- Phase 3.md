@@ -6,7 +6,10 @@ If you were looking for some other phases, click on the link below.
 
   * [Phase -1](https://officialcjunior.github.io/Binary-Bomb-Lab-Phase-1/)
   * [Phase -2](https://officialcjunior.github.io/Binary-Bomb-Lab-Phase-2/)
-
+  * [Phase -4](https://officialcjunior.github.io/Binary-Bomb-Lab-Phase-4/)
+  * [Phase -5](https://officialcjunior.github.io/Binary-Bomb-Lab-Phase-5/)
+  * [Phase -6](https://officialcjunior.github.io/Binary-Bomb-Lab-Phase-6/)
+   
 _________________
 
 As usual, we set up a breakpoint at `phase_3` after loading it on GDB, then,`run` it and `disassemble` it.
