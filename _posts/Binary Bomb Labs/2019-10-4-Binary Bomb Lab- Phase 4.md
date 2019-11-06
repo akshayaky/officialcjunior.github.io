@@ -47,9 +47,8 @@ And just before the program goes for recursion, we can see an integer, particula
 
 Let us just write that in some other programming language to get a clear idea of what's going on.
 
-```def func4(n): ```
-```
-	   if n<2:```
+```def func4(n): 
+	   if n<2:
 	   	   return n:
 	   else
 		   return func4(n-1)+func4(n-2)
