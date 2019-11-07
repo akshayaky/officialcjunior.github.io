@@ -32,12 +32,13 @@ So, let's just see what lies inside `0x804980b`.
 So, our input string is getting transformed into 'giants', somehow.
 We just have to figure out how and for that, we go back and see what's that loop we talked about earlier, is doing to our string.
 _________________ 
-At line <+43>, we have our input, the string inside `ebx` and as `edx` is getting increment each iteration of the loop, each character is moved into `al` each iteration. Then, it is **AND**-ed with 0xf, which is 55 in decimal, bitwise. Then, we can see that the result is moved into `eax`, and the element in `eax`-th location in `esi` is moved into the location of the input string.
+At line `<+43>`, we have our input, the string inside `ebx` and as `edx` is getting increment each iteration of the loop, each character is moved into `al` each iteration. Then, it is **AND**-ed with 0xf, which is 55 in decimal, bitwise. Then, we can see that the result is moved into `eax`, and the element in `eax`-th location in `esi` is moved into the location of the input string.
 
 For us to move forward, we must see what's inside `esi` during the loop.
 
-`until`-ing till the line where the loop begins, and printing what's inside `esi`, we get:
+Let's use `until` to move till the line where the loop begins, and print what's inside `esi`.
 
+We get:
 
 ![5-3](../../images/binarybomblabs/5-3.png)
 
@@ -52,8 +53,6 @@ for i in range (5):
 	password += esi[index]
 ```
 
-Our first letter of the password is 'g'. It lies on the 15-th index of the string in `esi`. So, we must find an character whose ASCII representation when AND-ed with 0xf returns 15.
-
 _________________ 
 
 
@@ -65,6 +64,7 @@ As we discussed above, `AND` is a bitwise operation.
 
 Say, you need index as 1. So,
 >   00000001 and 00001111
+
 >   00000001
 
 Even if you `AND` 0xff with 0xf, you'll still get the same result.
@@ -74,7 +74,7 @@ So, `AND` is only going to cut the most significant hex digit.
 
 _________________ 
 
-So, in the first iteration, we must get 15 as `index` (15 is the index of 'g' in `esi`)
+Our first letter of the password is 'g'. It lies on the 15-th index of the string in `esi`. So, we must find a character whose ASCII representation when AND-ed with 0xf returns 15.
 
 So, 0x2f,0x3f,0x4f... satisfies the condition.
 
@@ -84,10 +84,9 @@ So, 'o' can be the first character of our password.
 _________________ 
 
 
-Similarly, after we can reverse the cypher and figure out the password.
+Similarly, we can reverse the cypher and figure out the the next five characters.
 
 One of the answers ends up being **'opekmq'**.
-
 
 ![5-4](../../images/binarybomblabs/5-4.jpg)
 
