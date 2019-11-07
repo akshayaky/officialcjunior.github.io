@@ -70,6 +70,10 @@ kramdown:
 
 paginate: 4
 
+paginate_path: "/blog/page:2/"
+
+
+
 # Set the Sass partials directory, as we're using @imports
 sass:
   style: :expanded # You might prefer to minify using :compressed
