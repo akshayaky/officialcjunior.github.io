@@ -52,7 +52,6 @@ for i in range (5):
 	index = s[i] and 0xf
 	password += esi[index]
 ```
-
 _________________ 
 
 
@@ -64,7 +63,7 @@ As we discussed above, `AND` is a bitwise operation.
 
 Say, you need index as 1. So,
 >   00000001 and 00001111
-
+which gives us,
 >   00000001
 
 Even if you `AND` 0xff with 0xf, you'll still get the same result.
