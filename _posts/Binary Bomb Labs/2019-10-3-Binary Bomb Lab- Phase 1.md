@@ -2,7 +2,7 @@
 
 For the past month or so, I've been working on solving the infamous Binary Bomb Lab challenges. The challenge is made to teach the users understand assembly language.
 &nbsp;
-___________________________________
+____________
 
 This is post is about solving Phase 1, if you were looking for some other phases, you may click on the link below
   * [Phase -1](https://officialcjunior.github.io/Binary-Bomb-Lab-Phase-1/)
