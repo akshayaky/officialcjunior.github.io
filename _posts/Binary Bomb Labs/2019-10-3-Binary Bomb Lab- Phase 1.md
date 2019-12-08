@@ -8,6 +8,8 @@ This is post is about solving Phase 1, if you were looking for some other phases
   * [Phase -1](https://officialcjunior.github.io/Binary-Bomb-Lab-Phase-1/)
   * [Phase -2](https://officialcjunior.github.io/Binary-Bomb-Lab-Phase-2/)
   * [Phase -3](https://officialcjunior.github.io/Binary-Bomb-Lab-Phase-3/)
+  * [Phase -4](https://officialcjunior.github.io/Binary-Bomb-Lab-Phase-4/)
+  * [Phase -5](https://officialcjunior.github.io/Binary-Bomb-Lab-Phase-5/)
   
 
 
