@@ -1,6 +1,4 @@
-# The Bus Pirate Mannual
-
-This mannual covers the essential stuff that you don't want to miss while using a [Bus Pirate](http://dangerousprototypes.com/docs/Bus_Pirate).
+This mannual covers the essential information that you don't want to miss while using a [Bus Pirate](http://dangerousprototypes.com/docs/Bus_Pirate).
 
 # Flashing the firmware
 
