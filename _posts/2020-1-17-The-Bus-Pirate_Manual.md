@@ -1,5 +1,6 @@
-# cjunior's Bus Pirate Mannual
+# The Bus Pirate Mannual
 
+This mannual covers the essential stuff that you don't want to miss while using a [Bus Pirate](http://dangerousprototypes.com/docs/Bus_Pirate).
 
 # Flashing the firmware
 
@@ -8,10 +9,10 @@ After connecting the Bus Pirate, and cloning the [repository](https://github.com
 You can flash the firmware using the `pirate-loader`.
 It requires only the firmware hex file and the device name as arguments.
 
-So, flashed it just by running 
+So, if you are running Linux, you can flash it, just by running 
 `./pirate-loader_lnx --dev=/dev/ttyUSB --hex=busPirate.x`
 
-Please note that you have to connect the PGC and PGD pins of the Bus Pirate using a jumper cable to trigger the Bus Pirate bootloader. This is will make the MODE LED turn on.
+Keep in mind that you have to connect the PGC and PGD pins of the Bus Pirate using a jumper cable to trigger the Bus Pirate bootloader. This is will make the MODE LED turn on.
 
 ## Interfacing with the Bus Pirate
 
@@ -44,8 +45,7 @@ It is also possible to find the addresses of all the I2C chips on the network us
 
 ## SPI
 
-Connect MOSI and MISO of the Bus Pirate to the MOSI and MISO of the circuit. You'll also need to connect pins for the Chip Select and the clock signal. Don't forget about grounding it commonly.
+Connect MOSI and MISO of the Bus Pirate to the MOSI and MISO of the circuit. You'll also need to connect pins for the Chip Select and the Clock Signal. Don't forget about grounding it commonly.
 
 Choose the SPI mode from the Mode menu and go with the default settings for everything except the speed, unless you're really sure about what you're doing.
-
 
