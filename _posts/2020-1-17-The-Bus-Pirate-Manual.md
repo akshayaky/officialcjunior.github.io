@@ -1,14 +1,20 @@
-This mannual covers the essential information that you don't want to miss while using a [Bus Pirate](http://dangerousprototypes.com/docs/Bus_Pirate).
+A simple mannual to help you start working with your [Bus Pirate](http://dangerousprototypes.com/docs/Bus_Pirate).
 
 # Flashing the firmware
 
-After connecting the Bus Pirate, and cloning the [repository](https://github.com/BusPirate/Bus_Pirate), simply navigate to the firmware folder of the version ofthe Bus Pirate you own.
+After connecting the Bus Pirate, and cloning the [Bus Pirate repository](https://github.com/BusPirate/Bus_Pirate), simply navigate to the folder `package`. You should know about the version of the Bus Pirate you own and navigate to the corresponding folder
 
-You can flash the firmware using the `pirate-loader`.
-It requires only the firmware hex file and the device name as arguments.
+You can flash the firmware using the `pirate-loader`, which is an executable file present in the folder.
 
-So, if you are running Linux, you can flash it, just by running 
-`./pirate-loader_lnx --dev=/dev/ttyUSB --hex=busPirate.x`
+It requires only the firmware hex file and the device port name as arguments.
+
+So, if you are running a Linux distribution, you can flash the firmware through the terminal, just by running:
+
+`chmod +x ./pirate-loader_lnx`
+`./pirate-loader_lnx --dev=/dev/ttyUSB0 --hex=firmware.hex`
+
+Where, `/dev/ttyUSBO` is the port to which the Bus Pirate is connected.
+And `firmare.hex` is the firmware which you want to flash.
 
 Keep in mind that you have to connect the PGC and PGD pins of the Bus Pirate using a jumper cable to trigger the Bus Pirate bootloader. This is will make the MODE LED turn on.
 
@@ -18,18 +24,24 @@ The Bus Pirate uses a baud rate of 115200. Using GNU Screen, we can talk to the 
 
 `sudo screen /dev/ttyUSBO 115200`
 
-You'll enter a shell with prompt `<HiZ>` 
+Press enter, and you'll enter a shell with prompt `<HiZ>`. Congratulations! You can now interface with your Bus Pirate.
+
+I tried to interface the Bus Pirate with [Miniterm](https://pyserial.readthedocs.io/en/latest/tools.html), but I was unable to choose an option from the Mode Menu, as I guess, some data was already being sent and Bus Pirate misunderstood it as an input.
+
+## Debugging
+You can use a logic analyzer to see if the wirings are perfect. I used the [Saleae Logic Analyzer](https://www.saleae.com/downloads/) to make sure that there's data being sent through the wires.
 
 ## UART
 
 To, sniff data being sent using the UART protocol, choose 3, from the mode menu.
 Then, you'll be asked to set the UART mode, with port speed, data bits per frame, polarity, stop bits and output type.
+Go with the default options, unless you're sure about which one to choose.
 
-Just as you thought, connect MOSI of the device to the RX and MISO to TX along with a commmon ground.
+Connect MOSI of the device to the RX and MISO to TX along with a commmon ground.
 
-Opening UART using the `[` command won't work all the time, as the the Bus Pirate Hardware only has a four-byte buffer, causing a Buffer overun if the data is over four bytes.
+Opening UART using the `[` command won't work all the time, as the the Bus Pirate Hardware only has a four-byte hardware buffer, causing a Buffer overun if the data is over four bytes.
 
-So, use the macro (2), The Live UART monitor to view the data.
+So, use the macro (2), the Live UART monitor to view the data.
 
 ## I2C
 
@@ -47,3 +59,4 @@ Connect MOSI and MISO of the Bus Pirate to the MOSI and MISO of the circuit. You
 
 Choose the SPI mode from the Mode menu and go with the default settings for everything except the speed, unless you're really sure about what you're doing.
 
+### Good luck hacking!
