@@ -13,7 +13,7 @@ So, if you are running a Linux distribution, you can flash the firmware through 
 `chmod +x ./pirate-loader_lnx`
 `./pirate-loader_lnx --dev=/dev/ttyUSB0 --hex=firmware.hex`
 
-Where, `/dev/ttyUSBO` is the port to which the Bus Pirate is connected.
+Where, `/dev/ttyUSB0` is the port to which the Bus Pirate is connected.
 And `firmare.hex` is the firmware which you want to flash.
 
 Keep in mind that you have to connect the PGC and PGD pins of the Bus Pirate using a jumper cable to trigger the Bus Pirate bootloader. This is will make the MODE LED turn on.
@@ -35,11 +35,7 @@ You can use a logic analyzer to see if the wirings are perfect. I used the [Sale
 
 To, sniff data being sent using the UART protocol, choose 3, from the mode menu.
 Then, you'll be asked to set the UART mode, with port speed, data bits per frame, polarity, stop bits and output type.
-Go with the default options, unless you're sure about which one to choose.
-
-Connect MOSI of the device to the RX and MISO to TX along with a commmon ground.
-
-Opening UART using the `[` command won't work all the time, as the the Bus Pirate Hardware only has a four-byte hardware buffer, causing a Buffer overun if the data is over four bytes.
+Go with the default options, unless you're sure about which one to choose. On the menu where you can set speed, choose the baud rate the chip (of which you are sniffing) use.
 
 So, use the macro (2), the Live UART monitor to view the data.
 
