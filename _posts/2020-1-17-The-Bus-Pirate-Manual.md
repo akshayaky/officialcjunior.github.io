@@ -1,5 +1,9 @@
 A simple mannual to help you start working with your [Bus Pirate](http://dangerousprototypes.com/docs/Bus_Pirate).
 
+# Useful links
+
+To learn about what the device can do for you, I'd suggest starting somewhere near [Sparkfun's article](https://learn.sparkfun.com/tutorials/bus-pirate-v36a-hookup-guide/all) or the [Bus Pirate 102 mannual](http://dangerousprototypes.com/docs/Bus_Pirate_102_tutorial)
+
 # Flashing the firmware
 
 After connecting the Bus Pirate, and cloning the [Bus Pirate repository](https://github.com/BusPirate/Bus_Pirate), simply navigate to the folder `package`. You should know about the version of the Bus Pirate you own and navigate to the corresponding folder
@@ -14,7 +18,7 @@ So, if you are running a Linux distribution, you can flash the firmware through 
 `./pirate-loader_lnx --dev=/dev/ttyUSB0 --hex=firmware.hex`
 
 Where, `/dev/ttyUSB0` is the port to which the Bus Pirate is connected.
-And `firmare.hex` is the firmware which you want to flash.
+And `firmare.hex` will be the filename of the firmware, which you want to flash.
 
 Keep in mind that you have to connect the PGC and PGD pins of the Bus Pirate using a jumper cable to trigger the Bus Pirate bootloader. This is will make the MODE LED turn on.
 
@@ -54,5 +58,6 @@ It is also possible to find the addresses of all the I2C chips on the network us
 Connect MOSI and MISO of the Bus Pirate to the MOSI and MISO of the circuit. You'll also need to connect pins for the Chip Select and the Clock Signal. Don't forget about grounding it commonly.
 
 Choose the SPI mode from the Mode menu and go with the default settings for everything except the speed, unless you're really sure about what you're doing.
+
 
 ### Good luck hacking!
