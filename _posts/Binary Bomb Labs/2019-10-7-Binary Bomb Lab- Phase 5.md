@@ -31,7 +31,9 @@ So, let's just see what lies inside `0x804980b`.
 
 So, our input string is getting transformed into 'giants', somehow.
 We just have to figure out how and for that, we go back and see what's that loop we talked about earlier, is doing to our string.
+
 _________________ 
+
 At line `<+43>`, we have our input, the string inside `ebx` and as `edx` is getting increment each iteration of the loop, each character is moved into `al` each iteration. Then, it is **AND**-ed with 0xf, which is 55 in decimal, bitwise. Then, we can see that the result is moved into `eax`, and the element in `eax`-th location in `esi` is moved into the location of the input string.
 
 For us to move forward, we must see what's inside `esi` during the loop.
