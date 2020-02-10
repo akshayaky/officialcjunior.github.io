@@ -1,6 +1,6 @@
 # IOLI-crackme
 
-IOLI-crackme is a very famous set of challenges which was made to teach reverse engineering. The goal is to reverse the binary and the correct input to the program.
+IOLI-crackme is a very famous set of challenges which was made to teach reverse engineering. The goal is to reverse the binary and the enter the correct input to the program.
 
 I'm going to assume that you have a basic knowledge in reverse engineering and Intel x86 Assembly language and make it a bit short.
 
