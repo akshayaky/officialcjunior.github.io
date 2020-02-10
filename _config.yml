@@ -14,6 +14,9 @@ avatar: https://avatars1.githubusercontent.com/u/29057155?s=460&v=4
 #
 # Flags below are optional
 #
+markdown: redcarpet
+#To make the inline codes work properly
+
 
 # Includes an icon in the footer for each username you enter
 footer-links:
