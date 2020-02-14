@@ -48,7 +48,7 @@ So, let's go over there  `/etc/shadows/ and see who the new user is.
 So, that's pass2.
 
 Now for pass1.
-Well, pass1 was used to hide something inside doggo.jpg using steghide.
+Well, pass1 was used to hide something inside doggo.jpg using steghide(More about steghide and other image forensics tools [here](https://wiki.bi0s.in/forensics/Tools/)).
 
 Let's try to extract that out.
 
