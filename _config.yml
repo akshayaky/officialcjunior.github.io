@@ -6,7 +6,7 @@
 name: Aswin's tech blog
 
 # Short bio or description (displayed in the header)
-description: Computer Science Undergraduate
+description: Computer Science Undergraducarate
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars1.githubusercontent.com/u/29057155?s=460&v=4
@@ -14,8 +14,6 @@ avatar: https://avatars1.githubusercontent.com/u/29057155?s=460&v=4
 #
 # Flags below are optional
 #
-markdown: redcarpet
-#To make the inline codes work properly
 
 
 # Includes an icon in the footer for each username you enter
@@ -68,7 +66,7 @@ kramdown:
   # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
   syntax_highlighter: rouge
   syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
+    # Use existing pygments syntax dhighlighting css
     css_class: 'highlight'
 
 paginate: 5
